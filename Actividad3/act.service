@@ -1,0 +1,11 @@
+[Unit]
+Description=Script de saludo
+
+[Service]
+ExecStart=./script.sh
+Restart=always
+User= wgcoti  
+Group= wgcoti
+
+[Install]
+WantedBy=default.target
